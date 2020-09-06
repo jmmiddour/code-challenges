@@ -14,14 +14,14 @@ For some reason you've signed all your messages with `xoxo`. That's embarrassing
 'This is a very serious message'
 ```
 
-Additionally, if the msg is an empty string return None.
+Additionally, if the message is an empty string return None.
 
 ```python
 >>> fix_message('')
 None
 ```
 
-And if the length of the message is over 50 return the first 50 characters.
+And if the length of the message is over 50 characters, return a message with only the first 50 characters.
 
 ```python
 >>> msg = "we interrupt this program to annoy you and make things generally more irritating."
